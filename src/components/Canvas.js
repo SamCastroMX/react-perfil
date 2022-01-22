@@ -16,8 +16,7 @@ export const Canvasa = ({nombre,modelo="https://cassamstudio.net/img/sombrero.jp
     
         var scaleToFit = Math.min(scaleX, scaleY);
         var scaleToCover = Math.max(scaleX, scaleY);
-        console.log(scaleX);
-        console.log(scaleToFit);
+        
     
         stage.style.transformOrigin = '0 0'; //scale from top left
         stage.style.transform = 'scale(.8)';

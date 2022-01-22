@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const Models = ({ images, ErrorradioChecked=false,handleChangeModel }) => {
-    console.log(images);
+  
     let count = 1;
 
     const contentItems = images.map((item, key) => {

@@ -13,12 +13,12 @@ export const MainPanel = () => {
     }, [imagesData.modelType])
 
     const getInfo = async () => {
-        console.log(`https://cassamstudio.net/instructions.php?modelType=${imagesData.modelType}`)
+      
 
         const resp = await fetch(`https://cassamstudio.net/instructions.php?modelType=${imagesData.modelType}`)
         const data = await resp.json();
 
-        console.log(data);
+      
 
         setImagesData({ ...imagesData, instructions: data.instructions, images: data.images, load: false })
 
@@ -26,8 +26,7 @@ export const MainPanel = () => {
 
     const handleChangeModel = (e) => {
         const { name, value } = e.target;
-        console.log(name);
-        console.log(value);
+
         setImagesData({ ...imagesData, [name]: value });
 
    
@@ -38,7 +37,7 @@ export const MainPanel = () => {
 
    
     
-    console.log("sam");
+   
 
 
 
