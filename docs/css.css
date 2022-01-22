@@ -1,0 +1,21 @@
+.buttonIni {
+    width:300px;
+    height: 143px;
+    border: none;
+    background: url('iniciar.png') no-repeat top left;
+    padding: 2px 8px;
+  }
+  
+  @font-face{
+  font-family: 'AvenirNextLTPro-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(AvenirNextLTPro-Regular.otf);
+  }
+  
+  @font-face{
+    font-family: 'AvenirNextLTPro-Bold';
+    font-style: normal;
+    font-weight: 400;
+    src: url(AvenirNextLTPro-Bold.otf);
+  }
