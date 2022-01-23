@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/react-perfil/static/css/main.e6c13ad2.css",
-    "main.js": "/react-perfil/static/js/main.0cc3bf26.js",
+    "main.js": "/react-perfil/static/js/main.88cc4530.js",
     "static/media/intro.jpg": "/react-perfil/static/media/intro.7e48674ff9c3c9df5fdb.jpg",
     "static/media/logo.png": "/react-perfil/static/media/logo.926aec779b1f502faa37.png",
     "static/media/logo-redondo.png": "/react-perfil/static/media/logo-redondo.8cd42116c6953404cad1.png",
     "index.html": "/react-perfil/index.html",
     "main.e6c13ad2.css.map": "/react-perfil/static/css/main.e6c13ad2.css.map",
-    "main.0cc3bf26.js.map": "/react-perfil/static/js/main.0cc3bf26.js.map"
+    "main.88cc4530.js.map": "/react-perfil/static/js/main.88cc4530.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.0cc3bf26.js"
+    "static/js/main.88cc4530.js"
   ]
 }

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Canvasa } from './Canvas';
+import { Canvas } from './Canvas';
 import { Instructions } from './Instructions';
 import { Models } from './Models';
 import { SideBar } from './SideBar';
@@ -53,7 +53,7 @@ export const MainPanel = () => {
                 <div className="col-6">
                     {!imagesData.load && <SideBar {...imagesData.instructions} nombre={imagesData.nombre} handleChangeModel={handleChangeModel} />}
 
-                    {!imagesData.load && <Canvasa {...imagesData} />}
+                    {!imagesData.load && <Canvas {...imagesData} />}
                 </div>
 
             </div>
